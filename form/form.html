@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <div class="container" id="container">
+      <form action="" class="form">
+        <label for="name">Name:</label>
+        <input
+          class="name"
+          type="text"
+          id="name"
+          placeholder="Enter Your Name"
+          autocomplete="on"
+        />
+
+        <br /><br />
+
+        <label for="year">Year:</label>
+        <select class="year" id="year" required>
+          <option value="">Select Year</option>
+          <option value="">I</option>
+          <option value="">II</option>
+          <option value="">III</option>
+          <option value="">IV</option>
+        </select>
+
+        <br /><br />
+        <label for="dept">Department</label>
+        <select class="dept" id="dept" required>
+          <option value="">Select Department</option>
+          <option value="">CSE</option>
+          <option value="">IT</option>
+          <option value="">AI&DS</option>
+          <option value="">ECE</option>
+          <option value="">EEE</option>
+          <option value="">MECH</option>
+        </select>
+
+        <br /><br />
+
+        <label for="mail">Email:</label>
+        <input
+          class="email"
+          type="text"
+          id="mail"
+          placeholder="Enter Your Email"
+          required
+        />
+
+        <br /><br />
+
+        <p id="transport">Means of transport</p>
+        <label class="transport" for="bus">
+          <input
+            class="transport"
+            type="checkbox"
+            name="Bus"
+            id="bus"
+            value="bus"
+            required
+          />
+          Bus</label
+        >
+        <label class="transport" for="bike">
+          <input
+            class="transport"
+            type="checkbox"
+            name="Bike"
+            id="bike"
+            value="bike"
+            required
+          />
+          Bike</label
+        >
+        <label class="transport" for="hosteller">
+          <input
+            class="transport"
+            type="checkbox"
+            name="Hosteller"
+            id="hosteller"
+            value="hostel"
+          />
+          Hostel</label
+        >
+
+        <br /><br />
+        <div class="button">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
